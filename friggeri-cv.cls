@@ -50,12 +50,12 @@
 \RequirePackage[quiet]{fontspec}
 \RequirePackage[math-style=TeX,vargreek-shape=unicode]{unicode-math}
 
-\newfontfamily\bodyfont[]{TeX Gyre Termes}
-\newfontfamily\thinfont[]{TeX Gyre Termes}
-\newfontfamily\headingfont[]{TeX Gyre Termes}
+\newfontfamily\bodyfont[]{TeX Gyre Heros}
+\newfontfamily\thinfont[]{TeX Gyre Heros}
+\newfontfamily\headingfont[]{TeX Gyre Heros}
 
 \defaultfontfeatures{Mapping=tex-text}
-\setmainfont[Mapping=tex-text, Color=textcolor]{TeX Gyre Termes}
+\setmainfont[Mapping=tex-text, Color=textcolor]{TeX Gyre Heros}
 
 %\setmathfont{XITS Math}
 
@@ -314,7 +314,7 @@
 % Other tweaks %
 %%%%%%%%%%%%%%%%
 
-\RequirePackage[left=6.1cm,top=2cm,right=1.5cm,bottom=2.5cm,nohead,nofoot]{geometry}
+\RequirePackage[left=6.1cm,top=2cm,right=1.5cm,bottom=0.5cm,nohead,nofoot]{geometry}
 \RequirePackage{hyperref}
 \hypersetup{
     colorlinks=false,       
