@@ -1,4 +1,4 @@
-PROJECT=cv_10
+PROJECT=cv
 TEX=xelatex
 BUILDTEX=$(TEX) $(PROJECT).tex
 
